@@ -101,3 +101,56 @@ function exibirfinanceiroboleto(){
 
   return resultado
 }
+
+function exibirreembolso(){
+  var resultado = Swal.fire({
+      icon: 'question',
+      html:
+      '<b style="color: #186861;">Sra(o) </b>' + document.getElementById("nome_reembolso").value + '<b style="color: #186861;"> solicita informações sobre reembolso.</b> </br>' +
+      '<b style="color: #186861;">Mês: </b>' + document.getElementById("mes_reembolso").value + '; </br>' +
+      '<b style="color: #186861;">Protocolo: </b>' + document.getElementById("protocolo_reembolso").value + '; </br>' +
+      '<b style="color: #186861;">Status: </b>' + document.getElementById("status_reembolso").value + '; </br>' +
+      '<b style="color: #186861;">Obs. do atendimento: </b>' + document.getElementById("obs_reembolso").value + '; </br>' ,
+      showCloseButton: false,
+      showConfirmButton: false,
+      width: 700
+  })
+
+  return resultado
+}
+
+function exibirghi(){
+  var resultado = Swal.fire({
+      icon: 'question',
+      html:
+      '<b style="color: #186861;">Sra(o) </b>' + document.getElementById("nome_ghi").value + '<b style="color: #186861;"> solicita informações sobre GHI.</b> </br>' +
+      '<b style="color: #186861;">Data de solicitação: </b>' + document.getElementById("dtsoli_ghi").value + '; </br>' +
+      '<b style="color: #186861;">Consultas/exames/procedimentos: </b>' + document.getElementById("consulta_ghi").value + '; </br>' +
+      '<b style="color: #186861;">Status: </b>' + document.getElementById("status_ghi").value + '; </br>' +
+      '<b style="color: #186861;">Obs. do atendimento: </b>' + document.getElementById("obs_ghi").value + '; </br>' ,
+      showCloseButton: false,
+      showConfirmButton: false,
+      width: 700
+  })
+
+  return resultado
+}
+
+function exibirtoken(){
+  var resultado = Swal.fire({
+      icon: 'question',
+      html:
+      '<b style="color: #186861;">Sra(o) </b>' + document.getElementById("nome_token").value + '<b style="color: #186861;"> n° do token informado </b>' + document.getElementById("token_token").value + '<b style="color: #186861;">.Realizado o envio após as 3 confirmações.</b>' + '; </br>' +
+      '<b style="color: #186861;">CPF: </b>' + document.getElementById("cpf_token").value + '; </br>' +
+      '<b style="color: #186861;">Nome da mãe: </b>' + document.getElementById("mae_token").value + '; </br>' +
+      '<b style="color: #186861;">Data de nascimento: </b>' + document.getElementById("nasc_token").value + '; </br>' +
+      '<b style="color: #186861;">Telefone: </b>' + document.getElementById("telefone_token").value + '; </br>' +
+      '<b style="color: #186861;">E-mail: </b>' + document.getElementById("email_token").value + '; </br>' +
+      '<b style="color: #186861;">Obs. do atendimento (se necessário): </b>' + document.getElementById("obs_token").value + '; </br>' ,
+      showCloseButton: false,
+      showConfirmButton: false,
+      width: 900
+  })
+
+  return resultado
+}

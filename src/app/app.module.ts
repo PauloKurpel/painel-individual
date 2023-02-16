@@ -9,6 +9,9 @@ import { ServiconaolocComponent } from './serviconaoloc/serviconaoloc.component'
 import { FlowrnComponent } from './flowrn/flowrn.component';
 import { FinanceiroinfoComponent } from './financeiroinfo/financeiroinfo.component';
 import { FinanceiroboletoComponent } from './financeiroboleto/financeiroboleto.component';
+import { ReembolsoComponent } from './reembolso/reembolso.component';
+import { GhiComponent } from './ghi/ghi.component';
+import { TokenComponent } from './token/token.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { FinanceiroboletoComponent } from './financeiroboleto/financeiroboleto.c
     ServiconaolocComponent,
     FlowrnComponent,
     FinanceiroinfoComponent,
-    FinanceiroboletoComponent
+    FinanceiroboletoComponent,
+    ReembolsoComponent,
+    GhiComponent,
+    TokenComponent
   ],
   imports: [
     BrowserModule,
@@ -29,6 +35,9 @@ import { FinanceiroboletoComponent } from './financeiroboleto/financeiroboleto.c
       {path: 'flowrn', component: FlowrnComponent},
       {path: 'financeiroinfo', component: FinanceiroinfoComponent},
       {path: 'financeiroboleto', component: FinanceiroboletoComponent},
+      {path: 'reembolso', component: ReembolsoComponent},
+      {path: 'ghi', component: GhiComponent},
+      {path: 'token', component: TokenComponent},
       {path: '', redirectTo: '/agendamento', pathMatch: 'full'},
     ])
   ],

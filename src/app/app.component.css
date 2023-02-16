@@ -1,16 +1,16 @@
 .btnRow {
-  margin-left: 8%;
+  margin-left: 4%;
   margin-top: 1%;
   margin-bottom: 1%;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  column-gap: 10px;
+  column-gap: 15px;
   row-gap: 10px;
   justify-content: space-around;
   justify-items: center;
 }
 
 .button {
-  width: 259px;
+  width: 230px;
   height: 35px;
   background: #53726e linear-gradient(to bottom, #53726e 5%, #53726e 100%);
   border-radius: 30px;
@@ -18,9 +18,9 @@
   display: inline-block;
   cursor: pointer;
   color: rgb(231, 224, 224);
-  margin-right: 3%;
+  margin-right: 2%;
   font-family: Arial, sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   text-align: center;
   text-decoration: none;
   text-shadow: 0 1px 0 #ffffff;
