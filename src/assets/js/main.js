@@ -123,7 +123,7 @@ function exibirghi(){
   var resultado = Swal.fire({
       icon: 'question',
       html:
-      '<b style="color: #186861;">Sra(o) </b>' + document.getElementById("nome_ghi").value + '<b style="color: #186861;"> solicita informações sobre GHI.</b> </br>' +
+      '<b style="color: #186861;">Sra(o) </b>' + document.getElementById("nome_ghi").value + '<b style="color: #186861;"> solicita informações sobre GIH.</b> </br>' +
       '<b style="color: #186861;">Data de solicitação: </b>' + document.getElementById("dtsoli_ghi").value + '; </br>' +
       '<b style="color: #186861;">Consultas/exames/procedimentos: </b>' + document.getElementById("consulta_ghi").value + '; </br>' +
       '<b style="color: #186861;">Status: </b>' + document.getElementById("status_ghi").value + '; </br>' +
