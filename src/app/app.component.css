@@ -11,7 +11,7 @@
 
 .button {
   width: 259px;
-  height: 42px;
+  height: 35px;
   background: #53726e linear-gradient(to bottom, #53726e 5%, #53726e 100%);
   border-radius: 30px;
   border: none;
@@ -34,4 +34,3 @@
 .button:hover {
   transform: scale(1.05);
 }
-

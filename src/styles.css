@@ -4,6 +4,19 @@
   background-image: url(./assets/img/BACK.png);
 }
 
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(5, 46, 43);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(3, 70, 64);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
 .register {
   background: -webkit-linear-gradient(left, #208a81, #208a81);
   margin-top: 1.1%;
@@ -56,6 +69,13 @@
 
 .form-group {
   margin-bottom: 1rem;
+}
+
+.aviso {
+  color: red;
+  float: left;
+  margin-top: 4%;
+  font-weight: bold;
 }
 
 @-webkit-keyframes mover {
