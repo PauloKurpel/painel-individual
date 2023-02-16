@@ -54,7 +54,7 @@ body::-webkit-scrollbar-thumb {
   background: #f8f9fa;
   border-top-left-radius: 10% 50%;
   border-bottom-left-radius: 10% 50%;
-  min-height: 490px;
+  min-height: 460px;
   max-height: 520px;
   transition: all 1s;
 }

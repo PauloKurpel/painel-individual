@@ -7,6 +7,8 @@ import { DirecionamentoComponent } from './direcionamento/direcionamento.compone
 import { RouterModule } from '@angular/router';
 import { ServiconaolocComponent } from './serviconaoloc/serviconaoloc.component';
 import { FlowrnComponent } from './flowrn/flowrn.component';
+import { FinanceiroinfoComponent } from './financeiroinfo/financeiroinfo.component';
+import { FinanceiroboletoComponent } from './financeiroboleto/financeiroboleto.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FlowrnComponent } from './flowrn/flowrn.component';
     AgendamentoComponent,
     DirecionamentoComponent,
     ServiconaolocComponent,
-    FlowrnComponent
+    FlowrnComponent,
+    FinanceiroinfoComponent,
+    FinanceiroboletoComponent
   ],
   imports: [
     BrowserModule,
@@ -23,6 +27,8 @@ import { FlowrnComponent } from './flowrn/flowrn.component';
       {path: 'direcionamento', component: DirecionamentoComponent},
       {path: 'serviconaolocalizado', component: ServiconaolocComponent},
       {path: 'flowrn', component: FlowrnComponent},
+      {path: 'financeiroinfo', component: FinanceiroinfoComponent},
+      {path: 'financeiroboleto', component: FinanceiroboletoComponent},
       {path: '', redirectTo: '/agendamento', pathMatch: 'full'},
     ])
   ],

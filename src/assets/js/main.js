@@ -68,3 +68,36 @@ function exibirflowrn(){
 
   return resultado
 }
+
+function exibirfinanceiroinfo(){
+  var resultado = Swal.fire({
+      icon: 'question',
+      html:
+      '<b style="color: #186861;">Sra(o) </b>' + document.getElementById("nome_financeiroinfo").value + '<b style="color: #186861;"> solicita informações sobre seu(s) boleto(s).</b> </br>' +
+      '<b style="color: #186861;">Mês: </b>' + document.getElementById("mes_financeiroinfo").value + '; </br>' +
+      '<b style="color: #186861;">Vencimento: </b>' + document.getElementById("vcto_financeiroinfo").value + '; </br>' +
+      '<b style="color: #186861;">Obs. do atendimento: </b>' + document.getElementById("obs_financeiroinfo").value + '; </br>' ,
+      showCloseButton: false,
+      showConfirmButton: false,
+      width: 700
+  })
+
+  return resultado
+}
+
+function exibirfinanceiroboleto(){
+  var resultado = Swal.fire({
+      icon: 'question',
+      html:
+      '<b style="color: #186861;">Sra(o) </b>' + document.getElementById("nome_financeiroboleto").value + '<b style="color: #186861;"> solicita informações sobre seu(s) boleto(s).</b> </br>' +
+      '<b style="color: #186861;">Mês: </b>' + document.getElementById("mes_financeiroboleto").value + '; </br>' +
+      '<b style="color: #186861;">Vencimento: </b>' + document.getElementById("vcto_financeiroboleto").value + '; </br>' +
+      '<b style="color: #186861;">Enviado para (e-mail/telefone/sms): </b>' + document.getElementById("envio_financeiroboleto").value + '; </br>' +
+      '<b style="color: #186861;">Obs. do atendimento: </b>' + document.getElementById("obs_financeiroboleto").value + '; </br>' ,
+      showCloseButton: false,
+      showConfirmButton: false,
+      width: 700
+  })
+
+  return resultado
+}
