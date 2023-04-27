@@ -13,44 +13,40 @@
                       <form role="form">
                           <div class="form-group">
                               <input type="text" class="form-control" maxlength="150" id="nome_benef"
-                                  name="nome_benef" placeholder="Qual o nome do beneficiário?"
+                                  name="nome_benef" placeholder="Nome do beneficiário:"
                                   value="" required />
                           </div>
                           <div class="form-group">
                               <input type="text" class="form-control" id="consulta_benef"
-                                  name="consulta_benef" placeholder="Consulta/exames/procedimentos:" value=""
+                                  name="consulta_benef" placeholder="Especialidade:" value=""
                                   required />
                           </div>
-                          <!-- <div class="form-group">
-                              <input type="text" class="form-control" onfocus="(this.type='date')" onblur="(this.type='text')" id="dtagen_benef" name="dtagen_benef"
-                                  placeholder="Data de agendamento:" value=""
-                                  required />
-                          </div> -->
                           <div class="form-group">
                               <input type="text" class="form-control" onfocus="(this.type='date')" onblur="(this.type='text')" id="dtageem_benef" name="dtageem_benef"
                                   placeholder="Agendado em:" value=""
-                                  required />
+                                  required pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}"/>
                           </div>
                           <div class="form-group">
-                              <input type="text" class="form-control" maxlength="200" id="bairro_benef"
-                                  name="bairro_benef"
-                                  placeholder="Bairro/cidade/estado/município:" value=""
+                              <input type="text" class="form-control" maxlength="200" id="profissional_benef"
+                                  name="profissional_benef"
+                                  placeholder="Agendado pelo profissional:" value=""
                                   required />
                           </div>
-                          <div class="form-group">
+                          <!-- <div class="form-group">
                             <input type="text" class="form-control" maxlength="200" id="envio_benef"
                                 name="envio_benef"
                                 placeholder="Enviado para (e-mail/telefone/sms):" value=""
                                 required />
-                        </div>
+                        </div> -->
                         <div class="form-group">
-                          <input type="text" class="form-control" maxlength="200" id="obs_benef"
-                              name="obs_benef"
-                              placeholder="Obs. do atendimento (se necessário):" value=""
+                          <input type="text" class="form-control" maxlength="200" id="procedimento_benef"
+                              name="procedimento_benef"
+                              placeholder="Procedimento:" value=""
                               required />
                       </div>
                           <input class="btn btn-secondary" type="reset">
                           <input type="button" class="btn btn-primary right" onclick="exibircadastro()" value="Exibir" />
+                          <!-- <p class="aviso">*Necessário comparecer com 15 minutos de antecedência portando documento de identificação e carteirinha do convênio.</p> -->
                       </form>
                   </div>
               </div>
